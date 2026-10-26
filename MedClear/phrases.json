@@ -1,0 +1,154 @@
+[
+  {
+    "pattern": "bilateral lower extremit(?:y|ies)",
+    "swap": "both legs"
+  },
+  {
+    "pattern": "bilateral upper extremit(?:y|ies)",
+    "swap": "both arms"
+  },
+  {
+    "pattern": "lower extremit(?:y|ies)",
+    "swap": "legs"
+  },
+  {
+    "pattern": "upper extremit(?:y|ies)",
+    "swap": "arms"
+  },
+  {
+    "pattern": "bilateral(?:ly)?",
+    "swap": "on both sides"
+  },
+  {
+    "pattern": "unilateral(?:ly)?",
+    "swap": "on one side"
+  },
+  {
+    "pattern": "presents with",
+    "swap": "has"
+  },
+  {
+    "pattern": "presenting with",
+    "swap": "having"
+  },
+  {
+    "pattern": "complains of",
+    "swap": "reports"
+  },
+  {
+    "pattern": "complaining of",
+    "swap": "reporting"
+  },
+  {
+    "pattern": "denies",
+    "swap": "says they do not have"
+  },
+  {
+    "pattern": "status post",
+    "swap": "after"
+  },
+  {
+    "pattern": "no acute distress",
+    "swap": "not in sudden severe discomfort"
+  },
+  {
+    "pattern": "elevated",
+    "swap": "higher than normal"
+  },
+  {
+    "pattern": "diminished",
+    "swap": "reduced"
+  },
+  {
+    "pattern": "follow[- ]up",
+    "swap": "check-up visit"
+  },
+  {
+    "pattern": "no evidence of",
+    "swap": "no signs of"
+  },
+  {
+    "pattern": "consistent with",
+    "swap": "fits with"
+  },
+  {
+    "pattern": "suggestive of",
+    "swap": "hinting at"
+  },
+  {
+    "pattern": "rule out",
+    "swap": "check for"
+  },
+  {
+    "pattern": "administered",
+    "swap": "given"
+  },
+  {
+    "pattern": "prior to",
+    "swap": "before"
+  },
+  {
+    "pattern": "subsequent to",
+    "swap": "after"
+  },
+  {
+    "pattern": "approximately",
+    "swap": "about"
+  },
+  {
+    "pattern": "discontinue",
+    "swap": "stop"
+  },
+  {
+    "pattern": "initiate",
+    "swap": "start"
+  },
+  {
+    "pattern": "characterized by",
+    "swap": "marked by"
+  },
+  {
+    "pattern": "secondary to",
+    "swap": "caused by"
+  },
+  {
+    "pattern": "evidenced by",
+    "swap": "shown by"
+  },
+  {
+    "pattern": "exhibits",
+    "swap": "shows"
+  },
+  {
+    "pattern": "resolved",
+    "swap": "went away"
+  },
+  {
+    "pattern": "physical examination",
+    "swap": "exam"
+  },
+  {
+    "pattern": "laboratory results",
+    "swap": "lab results"
+  },
+  {
+    "pattern": "leading to",
+    "swap": "pointing to"
+  },
+  {
+    "pattern": "clinical diagnosis",
+    "swap": "diagnosis"
+  },
+  {
+    "pattern": "chief complaint",
+    "swap": "main reason for the visit"
+  },
+  {
+    "pattern": "vital signs",
+    "swap": "basic body measurements like heart rate and blood pressure"
+  },
+  {
+    "pattern": "reveals",
+    "swap": "shows"
+  }
+]

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Glossary | MedClear{% endblock %}
+
+{% block content %}
+<section class="intro">
+  <h1>Glossary</h1>
+  <p class="lede">Every medical term MedClear knows, explained without the extra. Search by word or by what it means.</p>
+</section>
+
+<section class="panel">
+  <div class="filters">
+    <div class="field">
+      <label for="q">Search</label>
+      <input id="q" type="text" placeholder="Try: kidney, swelling, BID">
+    </div>
+    <div class="field">
+      <label for="cat">Category</label>
+      <select id="cat">
+        <option value="">All categories</option>
+        {% for c in categories %}
+        <option value="{{ c }}">{{ c }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+  <p id="count" class="muted" role="status"></p>
+  <div id="entries"></div>
+  <div class="actions">
+    <button id="moreBtn" class="btn btn-quiet" hidden>Show more</button>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='glossary.js') }}"></script>
+{% endblock %}

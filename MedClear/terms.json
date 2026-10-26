@@ -1,0 +1,1418 @@
+{
+  "hypertension": {
+    "plain": "High blood pressure",
+    "analogy": "Like water pushing too hard against the walls of a garden hose.",
+    "category": "Heart & Circulation",
+    "swap": "high blood pressure"
+  },
+  "hypotension": {
+    "plain": "Low blood pressure",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "low blood pressure"
+  },
+  "tachycardia": {
+    "plain": "A faster than normal heart rate",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "faster-than-normal heart rate"
+  },
+  "bradycardia": {
+    "plain": "A slower than normal heart rate",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "slower-than-normal heart rate"
+  },
+  "arrhythmia": {
+    "plain": "An irregular heartbeat: too fast, too slow, or uneven",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "irregular heartbeat (arrhythmia)"
+  },
+  "atrial fibrillation": {
+    "plain": "A common irregular heartbeat where the upper chambers of the heart quiver instead of beating steadily",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "irregular heartbeat (atrial fibrillation)"
+  },
+  "myocardial infarction": {
+    "plain": "A heart attack: part of the heart muscle is damaged because its blood flow was blocked",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "heart attack"
+  },
+  "angina": {
+    "plain": "Chest pain or pressure when the heart muscle is not getting enough blood",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "chest pain from reduced blood flow to the heart (angina)"
+  },
+  "cardiomegaly": {
+    "plain": "An enlarged heart",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "enlarged heart (cardiomegaly)"
+  },
+  "murmur": {
+    "plain": "An extra or unusual sound heard during a heartbeat. Often harmless, but sometimes points to a valve problem",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "extra heart sound"
+  },
+  "hyperlipidemia": {
+    "plain": "High levels of fats, like cholesterol, in the blood",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "high blood fats"
+  },
+  "cholesterol": {
+    "plain": "A waxy, fat-like substance in the blood. Too much of some types can build up inside arteries",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "cholesterol"
+  },
+  "edema": {
+    "plain": "Swelling caused by extra fluid trapped in body tissue",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "swelling from fluid buildup"
+  },
+  "ischemia": {
+    "plain": "Not enough blood flow to part of the body",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "poor blood flow"
+  },
+  "thrombosis": {
+    "plain": "A blood clot forming inside a blood vessel",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "blood clot in a blood vessel (thrombosis)"
+  },
+  "embolism": {
+    "plain": "A blockage caused by a clot or other material traveling through the bloodstream",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "blockage from a traveling clot (embolism)"
+  },
+  "stenosis": {
+    "plain": "Narrowing of a passage in the body, such as a blood vessel or heart valve",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "narrowing (stenosis)"
+  },
+  "aneurysm": {
+    "plain": "A bulge in the wall of a blood vessel that can weaken and may burst",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "bulge in a blood vessel wall (aneurysm)"
+  },
+  "hemorrhage": {
+    "plain": "Heavy bleeding",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "heavy bleeding (hemorrhage)"
+  },
+  "syncope": {
+    "plain": "Fainting: a short loss of consciousness, often from reduced blood flow to the brain",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "fainting"
+  },
+  "anemia": {
+    "plain": "A lower than normal level of healthy red blood cells",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "low red blood cell count (anemia)"
+  },
+  "leukocytes": {
+    "plain": "White blood cells, the cells that fight infection",
+    "analogy": "Think of them as your body's security team.",
+    "category": "Blood & Labs",
+    "swap": "white blood cells"
+  },
+  "erythrocytes": {
+    "plain": "Red blood cells, the cells that carry oxygen around the body",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "red blood cells"
+  },
+  "platelets": {
+    "plain": "Tiny blood cells that help your blood clot",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "platelets (cells that help blood clot)"
+  },
+  "leukocytosis": {
+    "plain": "A higher than normal number of white blood cells, which can be a sign of infection or inflammation",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "high white blood cell count"
+  },
+  "leukopenia": {
+    "plain": "A lower than normal number of white blood cells",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "low white blood cell count"
+  },
+  "thrombocytopenia": {
+    "plain": "A lower than normal number of platelets, which can make bleeding or bruising easier",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "low platelet count"
+  },
+  "hemoglobin": {
+    "plain": "The protein in red blood cells that carries oxygen",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "hemoglobin (the oxygen-carrying protein in red blood cells)"
+  },
+  "hematocrit": {
+    "plain": "The percentage of your blood that is made up of red blood cells",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "hematocrit (the share of blood made of red blood cells)"
+  },
+  "creatinine": {
+    "plain": "A waste product from muscles. The level in your blood helps show how well your kidneys are working",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "creatinine (a kidney-function marker)"
+  },
+  "sepsis": {
+    "plain": "A life-threatening reaction to an infection, where the body's response starts damaging its own organs",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "dangerous body-wide reaction to infection (sepsis)"
+  },
+  "hyperkalemia": {
+    "plain": "Higher than normal potassium in the blood",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "high potassium"
+  },
+  "hypokalemia": {
+    "plain": "Lower than normal potassium in the blood",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "low potassium"
+  },
+  "hypernatremia": {
+    "plain": "Higher than normal sodium in the blood",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "high sodium"
+  },
+  "hyponatremia": {
+    "plain": "Lower than normal sodium in the blood",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "low sodium"
+  },
+  "hyperglycemia": {
+    "plain": "High blood sugar",
+    "analogy": "",
+    "category": "Hormones & Diabetes",
+    "swap": "high blood sugar"
+  },
+  "hypoglycemia": {
+    "plain": "Low blood sugar",
+    "analogy": "",
+    "category": "Hormones & Diabetes",
+    "swap": "low blood sugar"
+  },
+  "diabetes mellitus": {
+    "plain": "A condition where the body cannot properly control the level of sugar in the blood",
+    "analogy": "",
+    "category": "Hormones & Diabetes",
+    "swap": "diabetes"
+  },
+  "insulin": {
+    "plain": "A hormone that helps sugar move from the blood into the body's cells to be used for energy",
+    "analogy": "Like a key that unlocks the door of each cell so sugar can get in.",
+    "category": "Hormones & Diabetes",
+    "swap": "insulin (a hormone that moves sugar into cells)"
+  },
+  "hypothyroidism": {
+    "plain": "An underactive thyroid gland that does not make enough thyroid hormone",
+    "analogy": "",
+    "category": "Hormones & Diabetes",
+    "swap": "underactive thyroid (hypothyroidism)"
+  },
+  "hyperthyroidism": {
+    "plain": "An overactive thyroid gland that makes too much thyroid hormone",
+    "analogy": "",
+    "category": "Hormones & Diabetes",
+    "swap": "overactive thyroid (hyperthyroidism)"
+  },
+  "HbA1c": {
+    "plain": "A blood test showing your average blood sugar over the past 2 to 3 months",
+    "analogy": "",
+    "category": "Hormones & Diabetes",
+    "swap": "A1c (average blood sugar over 2 to 3 months)",
+    "abbr": true
+  },
+  "A1c": {
+    "plain": "A blood test showing your average blood sugar over the past 2 to 3 months",
+    "analogy": "",
+    "category": "Hormones & Diabetes",
+    "swap": "A1c (average blood sugar over 2 to 3 months)",
+    "abbr": true
+  },
+  "diagnosis": {
+    "plain": "The name doctors give to the condition that is causing your symptoms",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "diagnosis"
+  },
+  "benign": {
+    "plain": "Not cancer; not harmful in the way cancer is",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "non-cancerous"
+  },
+  "malignant": {
+    "plain": "Cancerous; able to grow into nearby tissue and spread",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "cancerous"
+  },
+  "metastasis": {
+    "plain": "Cancer spreading from where it started to other parts of the body",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "spread of cancer to other body parts (metastasis)"
+  },
+  "tumor": {
+    "plain": "An abnormal lump or mass of tissue. It can be benign or malignant",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "tumor (abnormal lump)"
+  },
+  "lesion": {
+    "plain": "An area of tissue that is abnormal because of injury or disease",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "area of abnormal tissue"
+  },
+  "carcinoma": {
+    "plain": "A type of cancer that starts in the skin or in the tissue lining organs",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "cancer (carcinoma)"
+  },
+  "biopsy": {
+    "plain": "Removing a small sample of tissue so it can be examined in a lab",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "tissue sample test"
+  },
+  "remission": {
+    "plain": "When signs and symptoms of a disease have decreased or disappeared",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "period with little or no sign of disease"
+  },
+  "prognosis": {
+    "plain": "The likely outcome or course of a disease",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "expected outcome"
+  },
+  "etiology": {
+    "plain": "The cause of a disease or condition",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "cause"
+  },
+  "differential diagnosis": {
+    "plain": "A list of possible conditions that could explain the symptoms, which the doctor narrows down with tests",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "list of possible causes"
+  },
+  "idiopathic": {
+    "plain": "The cause is unknown",
+    "analogy": "Doctors use this when they can see what is happening but not why.",
+    "category": "Diagnosis & Results",
+    "swap": "of unknown cause"
+  },
+  "asymptomatic": {
+    "plain": "Having no symptoms",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "without symptoms"
+  },
+  "acute": {
+    "plain": "Sudden and short-term, not ongoing",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "sudden and short-term"
+  },
+  "chronic": {
+    "plain": "Long-lasting or ongoing",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "long-lasting"
+  },
+  "unremarkable": {
+    "plain": "Normal; nothing unusual was found",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "normal"
+  },
+  "within normal limits": {
+    "plain": "The result is in the expected healthy range",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "in the normal range"
+  },
+  "lymphadenopathy": {
+    "plain": "Swollen lymph nodes",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "swollen lymph nodes"
+  },
+  "auscultation": {
+    "plain": "Listening to the heart, lungs, or gut with a stethoscope",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "listening with a stethoscope"
+  },
+  "contraindicated": {
+    "plain": "Not recommended because it could cause harm in this situation",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "not recommended because it could cause harm"
+  },
+  "dyspnea": {
+    "plain": "Shortness of breath or difficulty breathing",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "shortness of breath"
+  },
+  "tachypnea": {
+    "plain": "Breathing faster than normal",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "fast breathing"
+  },
+  "hypoxia": {
+    "plain": "Low oxygen levels in the body's tissues",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "low oxygen"
+  },
+  "pneumonia": {
+    "plain": "An infection that inflames the air sacs in one or both lungs",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "lung infection (pneumonia)"
+  },
+  "asthma": {
+    "plain": "A condition where the airways swell and narrow, making it harder to breathe",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "asthma (a condition that narrows the airways)"
+  },
+  "bronchitis": {
+    "plain": "Inflammation of the airways that carry air into the lungs",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "airway inflammation (bronchitis)"
+  },
+  "pulmonary": {
+    "plain": "Related to the lungs",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "lung"
+  },
+  "respiratory": {
+    "plain": "Related to breathing",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "breathing"
+  },
+  "effusion": {
+    "plain": "Extra fluid that has collected around an organ or in a joint, such as around the lungs",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "fluid buildup"
+  },
+  "cyanosis": {
+    "plain": "A bluish color of the skin or lips, which can mean low oxygen",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "bluish skin or lips"
+  },
+  "COPD": {
+    "plain": "Chronic obstructive pulmonary disease: a long-term lung disease that makes breathing hard (includes emphysema and chronic bronchitis)",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "long-term lung disease (COPD)",
+    "abbr": true
+  },
+  "SpO2": {
+    "plain": "Blood oxygen level, usually measured by a small sensor clipped to a finger",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "blood oxygen level",
+    "abbr": true
+  },
+  "hepatic": {
+    "plain": "Related to the liver",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "liver"
+  },
+  "renal": {
+    "plain": "Related to the kidneys",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "kidney"
+  },
+  "hepatitis": {
+    "plain": "Inflammation of the liver",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "liver inflammation (hepatitis)"
+  },
+  "cirrhosis": {
+    "plain": "Severe scarring of the liver",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "severe liver scarring (cirrhosis)"
+  },
+  "jaundice": {
+    "plain": "Yellowing of the skin and the whites of the eyes, often linked to liver or blood problems",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "yellowing of the skin and eyes"
+  },
+  "gastritis": {
+    "plain": "Inflammation of the stomach lining",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "stomach lining inflammation (gastritis)"
+  },
+  "reflux": {
+    "plain": "Stomach acid flowing back up into the esophagus (the tube from the mouth to the stomach)",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "acid reflux"
+  },
+  "dysphagia": {
+    "plain": "Difficulty swallowing",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "trouble swallowing"
+  },
+  "dialysis": {
+    "plain": "A treatment that does the kidneys' job of filtering waste from the blood",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "kidney-filtering treatment"
+  },
+  "GERD": {
+    "plain": "Gastroesophageal reflux disease: frequent acid reflux that can irritate the esophagus",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "acid reflux disease",
+    "abbr": true
+  },
+  "UTI": {
+    "plain": "Urinary tract infection: an infection in the bladder, kidneys, or the tubes between them",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "urinary tract infection",
+    "abbr": true
+  },
+  "inflammation": {
+    "plain": "The body's response to injury or infection, often causing redness, swelling, heat, and pain",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "inflammation"
+  },
+  "neuropathy": {
+    "plain": "Nerve damage that can cause numbness, tingling, or pain",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "nerve damage"
+  },
+  "vertigo": {
+    "plain": "A feeling that you or the room is spinning",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "spinning dizziness"
+  },
+  "seizure": {
+    "plain": "A sudden burst of abnormal electrical activity in the brain",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "seizure (a sudden burst of abnormal brain activity)"
+  },
+  "arthritis": {
+    "plain": "Inflammation of the joints, causing pain and stiffness",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "joint inflammation"
+  },
+  "osteoporosis": {
+    "plain": "A condition where bones become weak and brittle",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "weak, brittle bones (osteoporosis)"
+  },
+  "fracture": {
+    "plain": "A broken bone",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "broken bone"
+  },
+  "contusion": {
+    "plain": "A bruise",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "bruise"
+  },
+  "laceration": {
+    "plain": "A cut or tear in the skin",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "cut"
+  },
+  "erythema": {
+    "plain": "Redness of the skin",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "skin redness"
+  },
+  "pruritus": {
+    "plain": "Itching",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "itching"
+  },
+  "dermatitis": {
+    "plain": "Inflamed, irritated skin",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "skin inflammation"
+  },
+  "pallor": {
+    "plain": "Unusually pale skin",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "pale skin"
+  },
+  "lethargy": {
+    "plain": "Unusual tiredness or lack of energy",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "unusual tiredness"
+  },
+  "malaise": {
+    "plain": "A general feeling of being unwell",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "feeling unwell"
+  },
+  "anaphylaxis": {
+    "plain": "A severe, life-threatening allergic reaction that needs emergency care",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "severe allergic reaction (anaphylaxis)"
+  },
+  "CBC": {
+    "plain": "Complete blood count: a common blood test that measures red cells, white cells, and platelets",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "complete blood count (a common blood test)",
+    "abbr": true
+  },
+  "BMP": {
+    "plain": "Basic metabolic panel: a blood test checking sugar, salts, and kidney function",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "basic metabolic panel (a blood test)",
+    "abbr": true
+  },
+  "CMP": {
+    "plain": "Comprehensive metabolic panel: a blood test that checks sugar, salts, kidney function, and liver function",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "comprehensive metabolic panel (a blood test)",
+    "abbr": true
+  },
+  "BUN": {
+    "plain": "Blood urea nitrogen: a blood test that helps show how well the kidneys are working",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "BUN (a kidney-function blood test)",
+    "abbr": true
+  },
+  "WBC": {
+    "plain": "White blood cell count",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "white blood cell count",
+    "abbr": true
+  },
+  "RBC": {
+    "plain": "Red blood cell count",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "red blood cell count",
+    "abbr": true
+  },
+  "BP": {
+    "plain": "Blood pressure",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "blood pressure",
+    "abbr": true
+  },
+  "HR": {
+    "plain": "Heart rate",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "heart rate",
+    "abbr": true
+  },
+  "ECG": {
+    "plain": "Electrocardiogram: a test that records the heart's electrical activity",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "heart tracing test (ECG)",
+    "abbr": true
+  },
+  "EKG": {
+    "plain": "Electrocardiogram: a test that records the heart's electrical activity",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "heart tracing test (EKG)",
+    "abbr": true
+  },
+  "MRI": {
+    "plain": "Magnetic resonance imaging: detailed pictures of the inside of the body made with magnets, no radiation",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "MRI scan",
+    "abbr": true
+  },
+  "CT": {
+    "plain": "Computed tomography: a scan that uses many X-ray images to make detailed pictures of the inside of the body",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "CT scan",
+    "abbr": true
+  },
+  "ICU": {
+    "plain": "Intensive care unit",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "intensive care unit",
+    "abbr": true
+  },
+  "IV": {
+    "plain": "Intravenous: given directly into a vein",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "intravenous (into a vein)",
+    "abbr": true
+  },
+  "PRN": {
+    "plain": "As needed (used in medication instructions)",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "as needed",
+    "abbr": true
+  },
+  "BID": {
+    "plain": "Twice a day (used in medication instructions)",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "twice a day",
+    "abbr": true
+  },
+  "TID": {
+    "plain": "Three times a day (used in medication instructions)",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "three times a day",
+    "abbr": true
+  },
+  "NPO": {
+    "plain": "Nothing by mouth: no food or drink",
+    "analogy": "",
+    "category": "Abbreviations & Tests",
+    "swap": "nothing to eat or drink",
+    "abbr": true
+  },
+  "analgesic": {
+    "plain": "A pain reliever",
+    "analogy": "",
+    "category": "Medications",
+    "swap": "pain reliever"
+  },
+  "antibiotic": {
+    "plain": "A medicine that kills bacteria or stops them from growing. It does not work on viruses",
+    "analogy": "",
+    "category": "Medications",
+    "swap": "antibiotic"
+  },
+  "anticoagulant": {
+    "plain": "A blood thinner: a medicine that makes blood clot more slowly",
+    "analogy": "",
+    "category": "Medications",
+    "swap": "blood thinner"
+  },
+  "diuretic": {
+    "plain": "A medicine that helps the body get rid of extra water and salt through urine, sometimes called a water pill",
+    "analogy": "",
+    "category": "Medications",
+    "swap": "water pill"
+  },
+  "antihypertensive": {
+    "plain": "A medicine that lowers blood pressure",
+    "analogy": "",
+    "category": "Medications",
+    "swap": "blood pressure medicine"
+  },
+  "corticosteroid": {
+    "plain": "A medicine that reduces inflammation and calms the immune system",
+    "analogy": "",
+    "category": "Medications",
+    "swap": "anti-inflammatory steroid medicine"
+  },
+  "prophylaxis": {
+    "plain": "Treatment given to prevent a disease before it happens",
+    "analogy": "",
+    "category": "Medications",
+    "swap": "preventive treatment"
+  },
+  "cardiac": {
+    "plain": "Related to the heart",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "heart"
+  },
+  "cardiovascular": {
+    "plain": "Related to the heart and blood vessels",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "heart and blood vessel"
+  },
+  "palpitations": {
+    "plain": "The feeling that your heart is racing, pounding, skipping a beat, or fluttering",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "awareness of a racing or pounding heartbeat"
+  },
+  "perfusion": {
+    "plain": "The flow of blood through the body's tissues and organs",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "blood flow to tissue"
+  },
+  "heart failure": {
+    "plain": "A condition where the heart cannot pump blood as well as the body needs. It does not mean the heart has stopped",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "heart failure (the heart isn't pumping well enough)"
+  },
+  "orthostatic": {
+    "plain": "Related to standing up. For example, orthostatic dizziness is lightheadedness when you stand",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "related to standing up"
+  },
+  "hematoma": {
+    "plain": "A collection of blood outside blood vessels, often felt as a bruise-like lump",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "pool of blood in tissue"
+  },
+  "hematuria": {
+    "plain": "Blood in the urine",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "blood in the urine"
+  },
+  "proteinuria": {
+    "plain": "Too much protein in the urine, which can be a sign of kidney problems",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "protein in the urine"
+  },
+  "dysuria": {
+    "plain": "Pain or burning when urinating",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "painful urination"
+  },
+  "polyuria": {
+    "plain": "Passing larger than normal amounts of urine",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "passing large amounts of urine"
+  },
+  "oliguria": {
+    "plain": "Passing less urine than normal",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "low urine output"
+  },
+  "hematemesis": {
+    "plain": "Vomiting blood",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "vomiting blood"
+  },
+  "melena": {
+    "plain": "Black, tar-like stool, which can be a sign of bleeding in the upper digestive tract",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "black, tar-like stool"
+  },
+  "emesis": {
+    "plain": "Vomiting",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "vomiting"
+  },
+  "dyspepsia": {
+    "plain": "Indigestion: discomfort or pain in the upper belly after eating",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "indigestion"
+  },
+  "glomerulonephritis": {
+    "plain": "Inflammation of the glomeruli, the tiny filters inside the kidneys",
+    "analogy": "Think of the kidney's filters becoming irritated and swollen.",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "inflammation of the kidneys' tiny filters (glomerulonephritis)"
+  },
+  "renal insufficiency": {
+    "plain": "The kidneys are not working as well as they should",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "reduced kidney function"
+  },
+  "kidney failure": {
+    "plain": "The kidneys can no longer filter waste from the blood well enough on their own",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "kidney failure"
+  },
+  "nephritis": {
+    "plain": "Inflammation of the kidneys",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "kidney inflammation (nephritis)"
+  },
+  "pyelonephritis": {
+    "plain": "A kidney infection, usually spread from the bladder",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "kidney infection (pyelonephritis)"
+  },
+  "cystitis": {
+    "plain": "Inflammation of the bladder, often from an infection",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "bladder inflammation (cystitis)"
+  },
+  "pancreatitis": {
+    "plain": "Inflammation of the pancreas",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "pancreas inflammation (pancreatitis)"
+  },
+  "appendicitis": {
+    "plain": "Inflammation of the appendix, a small pouch attached to the large intestine. It often needs urgent care",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "inflamed appendix (appendicitis)"
+  },
+  "diverticulitis": {
+    "plain": "Inflamed or infected small pouches in the wall of the colon",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "inflamed pouches in the colon wall (diverticulitis)"
+  },
+  "gastroenteritis": {
+    "plain": "Inflammation of the stomach and intestines, often called stomach flu",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "stomach and intestine inflammation (stomach flu) (gastroenteritis)"
+  },
+  "abdominal": {
+    "plain": "Related to the belly area",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "belly"
+  },
+  "gastrointestinal": {
+    "plain": "Related to the stomach and intestines",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "stomach and intestinal"
+  },
+  "pharyngeal": {
+    "plain": "Related to the pharynx, which is the throat",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "throat"
+  },
+  "pharyngitis": {
+    "plain": "Inflammation of the throat, commonly called a sore throat",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "sore throat (pharyngitis)"
+  },
+  "tonsillitis": {
+    "plain": "Inflammation of the tonsils, the two lumps of tissue at the back of the throat",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "inflamed tonsils (tonsillitis)"
+  },
+  "sinusitis": {
+    "plain": "Inflammation of the sinuses, the air spaces in the bones around the nose",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "sinus inflammation (sinusitis)"
+  },
+  "hemoptysis": {
+    "plain": "Coughing up blood from the lungs or airways",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "coughing up blood"
+  },
+  "epistaxis": {
+    "plain": "A nosebleed",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "nosebleed"
+  },
+  "thoracic": {
+    "plain": "Related to the chest",
+    "analogy": "",
+    "category": "Lungs & Breathing",
+    "swap": "chest"
+  },
+  "otitis media": {
+    "plain": "A middle ear infection",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "middle ear infection (otitis media)"
+  },
+  "conjunctivitis": {
+    "plain": "Inflammation of the thin layer covering the white of the eye, often called pink eye",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "pink eye (conjunctivitis)"
+  },
+  "periorbital": {
+    "plain": "Around the eye",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "around-the-eye"
+  },
+  "ocular": {
+    "plain": "Related to the eye",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "eye"
+  },
+  "glaucoma": {
+    "plain": "A group of eye conditions that damage the optic nerve, often from high pressure inside the eye",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "eye disease that damages the optic nerve (glaucoma)"
+  },
+  "cataract": {
+    "plain": "Clouding of the eye's lens that makes vision blurry",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "clouded eye lens (cataract)"
+  },
+  "meningitis": {
+    "plain": "Inflammation of the membranes covering the brain and spinal cord, usually from an infection. It needs urgent care",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "inflammation of the membranes around the brain and spinal cord (meningitis)"
+  },
+  "cellulitis": {
+    "plain": "A bacterial infection of the skin and the tissue just beneath it",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "bacterial skin infection (cellulitis)"
+  },
+  "osteoarthritis": {
+    "plain": "The most common type of arthritis, caused by wear and tear on the joints",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "wear-and-tear arthritis"
+  },
+  "tendinitis": {
+    "plain": "Inflammation of a tendon, the cord that attaches muscle to bone",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "tendon inflammation (tendinitis)"
+  },
+  "bursitis": {
+    "plain": "Inflammation of a bursa, a small fluid-filled cushion near a joint",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "inflamed joint cushion (bursitis)"
+  },
+  "diaphoresis": {
+    "plain": "Heavy or unusual sweating",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "heavy sweating"
+  },
+  "pyrexia": {
+    "plain": "Fever",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "fever"
+  },
+  "febrile": {
+    "plain": "Having a fever",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "having a fever"
+  },
+  "afebrile": {
+    "plain": "Without a fever",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "without a fever"
+  },
+  "atrophy": {
+    "plain": "Wasting away or shrinking of body tissue or an organ",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "shrinking of tissue"
+  },
+  "hypertrophy": {
+    "plain": "Enlargement of an organ or tissue because its cells have grown larger",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "enlargement of tissue"
+  },
+  "necrosis": {
+    "plain": "Death of body tissue",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "death of tissue"
+  },
+  "fibrosis": {
+    "plain": "Scarring or thickening of tissue",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "scarring of tissue"
+  },
+  "sequelae": {
+    "plain": "Lasting effects left after a disease or injury",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "lasting effects"
+  },
+  "comorbidity": {
+    "plain": "Another health condition a person has at the same time as the main one",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "another health condition at the same time"
+  },
+  "exacerbation": {
+    "plain": "A flare-up: symptoms getting suddenly worse",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "flare-up"
+  },
+  "obstruction": {
+    "plain": "A blockage",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "blockage"
+  },
+  "subcutaneous": {
+    "plain": "Under the skin",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "under the skin"
+  },
+  "sublingual": {
+    "plain": "Under the tongue",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "under the tongue"
+  },
+  "intramuscular": {
+    "plain": "Into a muscle",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "into a muscle"
+  },
+  "lumbar": {
+    "plain": "Related to the lower back",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "lower back"
+  },
+  "neurological": {
+    "plain": "Related to the brain, spinal cord, and nerves",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "brain and nerve"
+  },
+  "musculoskeletal": {
+    "plain": "Related to the muscles and bones",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "muscle and bone"
+  },
+  "cutaneous": {
+    "plain": "Related to the skin",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "skin"
+  },
+  "topical": {
+    "plain": "Applied directly to the skin",
+    "analogy": "",
+    "category": "Medications",
+    "swap": "applied to the skin"
+  },
+  "transient": {
+    "plain": "Lasting only a short time",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "temporary"
+  },
+  "systemic": {
+    "plain": "Affecting the whole body rather than one part",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "body-wide"
+  },
+  "recurrent": {
+    "plain": "Happening again",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "happening again"
+  },
+  "progressive": {
+    "plain": "Getting worse over time",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "getting worse over time"
+  },
+  "insufficiency": {
+    "plain": "An organ or system is not working as well as it should",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "reduced function"
+  },
+  "melanoma": {
+    "plain": "A serious type of skin cancer that starts in the cells that make skin color",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "skin cancer (melanoma)"
+  },
+  "lymphoma": {
+    "plain": "Cancer that starts in the lymph system, part of the body's infection-fighting network",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "cancer of the lymph system (lymphoma)"
+  },
+  "leukemia": {
+    "plain": "Cancer of the blood-forming tissues, such as the bone marrow",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "cancer of the blood-forming tissue (leukemia)"
+  },
+  "proximal": {
+    "plain": "Closer to the center of the body or to where something starts",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "closer to the center of the body"
+  },
+  "distal": {
+    "plain": "Farther from the center of the body or from where something starts",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "farther from the center of the body"
+  },
+  "anterior": {
+    "plain": "Toward the front of the body",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "toward the front"
+  },
+  "posterior": {
+    "plain": "Toward the back of the body",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "toward the back"
+  },
+  "lateral": {
+    "plain": "Toward the side of the body",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "toward the side"
+  },
+  "acute appendicitis": {
+    "plain": "Sudden inflammation of the appendix, a small pouch attached to the large intestine. It usually needs urgent care",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "sudden inflammation of the appendix (acute appendicitis)"
+  },
+  "chronic kidney disease": {
+    "plain": "Long-term, slowly worsening loss of kidney function",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "long-term kidney damage"
+  },
+  "urinary tract infection": {
+    "plain": "An infection in the bladder, kidneys, or the tubes between them",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "urinary tract infection"
+  },
+  "type 2 diabetes": {
+    "plain": "A type of diabetes where the body does not use insulin well, so blood sugar runs high",
+    "analogy": "",
+    "category": "Hormones & Diabetes",
+    "swap": "type 2 diabetes"
+  },
+  "type 1 diabetes": {
+    "plain": "A type of diabetes where the body makes little or no insulin",
+    "analogy": "",
+    "category": "Hormones & Diabetes",
+    "swap": "type 1 diabetes"
+  },
+  "congestive heart failure": {
+    "plain": "Heart failure that has caused fluid to build up in the lungs or other parts of the body",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "heart failure with fluid buildup"
+  },
+  "deep vein thrombosis": {
+    "plain": "A blood clot in a deep vein, usually in the leg",
+    "analogy": "",
+    "category": "Heart & Circulation",
+    "swap": "blood clot in a deep vein (deep vein thrombosis)"
+  },
+  "tenderness": {
+    "plain": "Pain when an area is touched or pressed",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "pain when touched"
+  },
+  "guarding": {
+    "plain": "Tightening of the belly muscles when the belly is touched, usually to protect a painful area",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "tightening of belly muscles to protect a sore spot"
+  },
+  "rebound tenderness": {
+    "plain": "Pain that gets worse when pressure on the belly is quickly let go",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "pain that gets worse when pressure is released"
+  },
+  "mcburney's point": {
+    "plain": "A spot in the lower right belly where appendicitis pain is often felt",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "McBurney's point (the lower right belly spot where appendicitis often hurts)"
+  },
+  "neutrophils": {
+    "plain": "The most common white blood cell. They are first responders against infection, especially bacterial infection",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "neutrophils (white blood cells that fight infection)"
+  },
+  "neutrophilia": {
+    "plain": "A higher than normal number of neutrophils, a type of white blood cell",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "high neutrophil count"
+  },
+  "neutrophilic predominance": {
+    "plain": "Neutrophils make up the largest share of the white blood cells",
+    "analogy": "",
+    "category": "Blood & Labs",
+    "swap": "mostly neutrophils"
+  },
+  "distension": {
+    "plain": "Swelling or stretching of the belly or another body part, often from gas or fluid",
+    "analogy": "",
+    "category": "Digestion, Liver & Kidneys",
+    "swap": "swelling or bloating"
+  },
+  "rigidity": {
+    "plain": "Stiffness or tightness of muscles",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "stiffness"
+  },
+  "palpable": {
+    "plain": "Able to be felt by touch",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "able to be felt"
+  },
+  "erythematous": {
+    "plain": "Red",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "red"
+  },
+  "edematous": {
+    "plain": "Swollen with extra fluid",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "swollen with fluid"
+  },
+  "localized": {
+    "plain": "Limited to one area",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "limited to one area"
+  },
+  "malignant melanoma": {
+    "plain": "A serious type of skin cancer that starts in the cells that make skin color",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "skin cancer (melanoma)"
+  },
+  "malignant tumor": {
+    "plain": "A cancerous lump of tissue that can grow into nearby tissue and spread",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "cancerous tumor"
+  },
+  "benign tumor": {
+    "plain": "A lump of tissue that is not cancer",
+    "analogy": "",
+    "category": "Diagnosis & Results",
+    "swap": "non-cancerous tumor"
+  },
+  "localized tenderness": {
+    "plain": "Pain when one specific spot is touched or pressed",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "pain in one spot when touched"
+  },
+  "voluntary guarding": {
+    "plain": "The patient tightens their belly muscles on purpose to protect a painful area",
+    "analogy": "",
+    "category": "Body Systems & Symptoms",
+    "swap": "tensing the belly muscles on purpose to protect a sore spot"
+  }
+}

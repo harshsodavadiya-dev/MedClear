@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Word decoder | MedClear{% endblock %}
+
+{% block content %}
+<section class="intro">
+  <h1>Word decoder</h1>
+  <p class="lede">Most medical words are built from a few small pieces: a prefix, a root, and a suffix. Type a word and see how it comes apart.</p>
+</section>
+
+<section class="panel panel-key">
+  <div class="lookup-row">
+    <label for="wordInput" class="sr-only">Medical word</label>
+    <input id="wordInput" type="text" maxlength="40" placeholder="Try: glomerulonephritis">
+    <button id="decodeBtn" class="btn">Decode</button>
+  </div>
+  <div id="decodeOut"></div>
+</section>
+
+<section class="panel">
+  <div class="panel-head">
+    <h2>Common word parts</h2>
+  </div>
+  <div class="field">
+    <label for="partFilter">Filter</label>
+    <input id="partFilter" type="text" placeholder="Try: heart, itis, kidney">
+  </div>
+
+  {% for kind, heading in [("prefix", "Prefixes (the start of a word)"), ("root", "Roots (the main idea)"), ("suffix", "Suffixes (the end of a word)")] %}
+  <h3 class="part-heading">{{ heading }}</h3>
+  <table class="table parts-table">
+    <thead><tr><th>Part</th><th>Means</th></tr></thead>
+    <tbody>
+      {% for p in table[kind] %}
+      <tr data-search="{{ p.text }} {{ p.meaning }}"><td>{{ p.text }}</td><td>{{ p.meaning }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endfor %}
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='words.js') }}"></script>
+{% endblock %}

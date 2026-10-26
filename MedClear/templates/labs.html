@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}Lab guide | MedClear{% endblock %}
+
+{% block content %}
+<section class="intro">
+  <h1>Lab number guide</h1>
+  <p class="lede">What the common tests measure, what a typical adult range looks like, and a quick way to see where your number lands.</p>
+  <p class="fine">Ranges change from lab to lab, and with age and sex. The range on your own report is the one that matters.</p>
+</section>
+
+<section class="panel panel-key">
+  <h2>Check a number</h2>
+  <div class="filters">
+    <div class="field">
+      <label for="labSelect">Test</label>
+      <select id="labSelect">
+        {% for lab in labs %}
+        <option value="{{ lab.id }}" data-unit="{{ lab.unit }}">{{ lab.label }}</option>
+        {% endfor %}
+        <option value="bp" data-unit="mmHg">Blood pressure</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="labValue" id="labValueLabel">Your number</label>
+      <input id="labValue" type="number" step="any" inputmode="decimal">
+    </div>
+    <div class="field" id="value2Field" hidden>
+      <label for="labValue2">Bottom number</label>
+      <input id="labValue2" type="number" step="any" inputmode="numeric">
+    </div>
+  </div>
+  <div class="actions">
+    <button id="labCheckBtn" class="btn">Check it</button>
+  </div>
+  <div id="labOut"></div>
+</section>
+
+<section class="panel">
+  <h2>Blood pressure</h2>
+  <p>{{ bp.what }}</p>
+  <table class="table">
+    <thead><tr><th>Category</th><th>Numbers (mmHg)</th></tr></thead>
+    <tbody>
+      {% for name, numbers in bp_categories %}
+      <tr><td>{{ name }}</td><td>{{ numbers }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <p class="fine">{{ bp.note }} These categories come from the American Heart Association's blood pressure chart.</p>
+</section>
+
+<section class="panel">
+  <h2>The tests</h2>
+  <div class="lab-grid">
+    {% for lab in labs %}
+    <article class="lab-card">
+      <h3>{{ lab.label }}</h3>
+      <p>{{ lab.what }}</p>
+      <p class="lab-range"><strong>Typical adult range:</strong> {{ lab.range_text }}{% if lab.range_text.startswith('no single') %}{% else %} ({{ lab.unit }}){% endif %}</p>
+      {% if lab.note %}<p class="fine">{{ lab.note }}</p>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='labs.js') }}"></script>
+{% endblock %}

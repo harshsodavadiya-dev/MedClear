@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block title %}MedClear | Doctor's notes in plain English{% endblock %}
+
+{% block content %}
+<section class="intro">
+  <h1>Doctor's notes, in plain English.</h1>
+  <p class="lede">Paste a visit note, a lab report, or medicine instructions. MedClear rewrites it in everyday words, explains the medical terms, and shows how your lab numbers compare with the normal ranges.</p>
+  <p class="fine">Nothing you paste gets saved.</p>
+</section>
+
+<section class="panel" id="inputCard">
+  <div class="examples">
+    <span class="examples-label">Try one:</span>
+    <button class="chip example-btn" data-example="0">Visit note</button>
+    <button class="chip example-btn" data-example="1">Lab results</button>
+    <button class="chip example-btn" data-example="2">Medicine instructions</button>
+    <button class="chip example-btn" data-example="3">ER discharge</button>
+  </div>
+
+  <label for="inputText" class="sr-only">Medical text</label>
+  <textarea id="inputText" rows="6" maxlength="{{ max_chars }}" placeholder="Paste or type your text here..."></textarea>
+  <p class="fine privacy-note">Don't include your name, birthday, or ID numbers.</p>
+
+  <div class="actions">
+    <button id="explainBtn" class="btn">Translate it</button>
+    <button id="clearBtn" class="btn btn-quiet">Clear</button>
+  </div>
+  <p id="message" class="message" role="status"></p>
+</section>
+
+<section id="output" hidden>
+  <div class="stats" id="stats"></div>
+
+  <nav class="jump" aria-label="Jump to a section">
+    <button class="chip" data-target="plainCard">Plain English</button>
+    <button class="chip" data-target="labsCard">Your numbers</button>
+    <button class="chip" data-target="termsCard">Terms</button>
+    <button class="chip" data-target="unknownCard">Other words</button>
+    <button class="chip" data-target="questionsCard">Questions</button>
+  </nav>
+
+  <section class="panel panel-key" id="plainCard">
+    <div class="panel-head">
+      <h2>In plain English</h2>
+      <div class="panel-tools">
+        <button id="copyPlainBtn" class="btn btn-quiet btn-small">Copy</button>
+        <button id="printBtn" class="btn btn-quiet btn-small">Print</button>
+      </div>
+    </div>
+    <div id="plainText" class="plain-text"></div>
+    <p class="fine">It's a word-for-word swap, so the grammar can get a little stiff. The explanations below have the full details.</p>
+  </section>
+
+  <section class="panel" id="labsCard" hidden>
+    <h2>Your numbers</h2>
+    <p class="muted">Here's how each number compares with a typical adult range. The range printed on your own lab report is the one that counts, since labs aren't all the same.</p>
+    <div id="labs"></div>
+  </section>
+
+  <section class="panel">
+    <h2>Your original text</h2>
+    <p class="muted">Highlighted words are explained below. Tap one to jump to it.</p>
+    <div id="annotated" class="annotated"></div>
+  </section>
+
+  <section class="panel" id="termsCard">
+    <div class="panel-head">
+      <h2 id="termsTitle">Terms explained</h2>
+      <button id="copyTermsBtn" class="btn btn-quiet btn-small">Copy list</button>
+    </div>
+    <div id="results"></div>
+  </section>
+
+  <section class="panel" id="unknownCard" hidden>
+    <h2>Other medical words</h2>
+    <p class="muted">These aren't in our glossary yet, but most medical words are built from smaller pieces. The breakdown is a best guess, so check it with the lookup below.</p>
+    <div id="unknown"></div>
+  </section>
+
+  <section class="panel" id="questionsCard">
+    <h2>Questions to ask your doctor</h2>
+    <ul id="questions" class="questions"></ul>
+  </section>
+</section>
+
+<section class="panel" id="lookupCard">
+  <h2>Look up anything else</h2>
+  <p class="muted">Searches MedlinePlus, the health site run by the National Library of Medicine.</p>
+  <div class="lookup-row">
+    <label for="lookupInput" class="sr-only">Medical word or condition</label>
+    <input id="lookupInput" type="text" maxlength="60" placeholder="Like: tonsillitis">
+    <button id="lookupBtn" class="btn">Look up</button>
+  </div>
+  <div id="lookupResults"></div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+{% endblock %}

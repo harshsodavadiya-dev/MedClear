@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}About | MedClear{% endblock %}
+
+{% block content %}
+<section class="intro">
+  <h1>About MedClear</h1>
+  <p class="lede">A high school student built MedClear for the 2026 Congressional App Challenge to make medical paperwork easier to read.</p>
+</section>
+
+<section class="panel">
+  <h2>The problem</h2>
+  <p>Patient portals and visit summaries are full of words like "tachycardia" and "bilateral lower extremity edema." People get their results before they get an explanation, and when you don't understand your own health information, it's easy to miss follow-ups or take a medicine the wrong way. MedClear is a quick way to find out what the words actually mean.</p>
+</section>
+
+<section class="panel">
+  <h2>How it works</h2>
+  <ol class="steps">
+    <li><strong>You paste text.</strong> A note, a lab report, or medicine instructions.</li>
+    <li><strong>It finds the medical language.</strong> MedClear checks your text against a glossary of {{ term_count }} terms and a list of wordy doctor phrases, and when two matches overlap it keeps the longer one.</li>
+    <li><strong>It swaps in plain wording.</strong> That gives you the rewrite, plus a card for every term it found.</li>
+    <li><strong>It reads your numbers.</strong> Lab values like "glucose 118" or "BP 148/92" get compared with typical adult ranges.</li>
+    <li><strong>It deals with words it doesn't know.</strong> Unfamiliar words get split into prefix, root, and suffix pieces, and the lookup can search MedlinePlus.</li>
+  </ol>
+  <p class="fine">There's no AI model rewriting your text. Every swap comes from a glossary and rules, so it can't invent facts, but it also can't make a sentence sound smooth.</p>
+</section>
+
+<section class="panel">
+  <h2>Where the information comes from</h2>
+  <p>The lookup box and any imported definitions come from MedlinePlus.gov, the National Library of Medicine's health information site. Blood pressure categories follow the American Heart Association's chart. Lab ranges are typical adult ranges and are only a rough guide.</p>
+</section>
+
+<section class="panel">
+  <h2>Privacy</h2>
+  <p>MedClear doesn't have accounts, and it doesn't save the text you paste. The only thing that leaves the app is a single word when you use the lookup box, which goes to MedlinePlus.</p>
+</section>
+
+<section class="panel">
+  <h2>What it can't do</h2>
+  <ul class="plain-list">
+    <li>It can't diagnose anything or tell you what to do about your health.</li>
+    <li>It only knows the terms in its glossary, plus whatever the word decoder and the lookup can figure out.</li>
+    <li>Typical ranges don't account for your age, sex, or health history.</li>
+    <li>The reading-level scores are estimates.</li>
+  </ul>
+</section>
+
+{% endblock %}
